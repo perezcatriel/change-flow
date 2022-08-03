@@ -1,0 +1,35 @@
+header {
+	display: grid;
+	grid-template-columns: 100px auto 250px;
+	border-bottom: 1px solid var(--gris-marengo);
+}
+
+header i {
+	margin: auto;
+	font-size: var(--font-subtitulo);
+	color: var(--gris-marengo);
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	color: var(--gris-marengo);
+}
+
+nav li {
+	display: block;
+	margin: 10px 20px;
+	color: var(--gris-marengo);
+}
+
+li a {
+	color: var(--gris-marengo);
+}
+
+section,
+section a {
+	display: flex;
+	margin: 10px 10px;
+	color: var(--gris-marengo);
+}

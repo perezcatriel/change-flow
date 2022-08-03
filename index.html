@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Casa de Cambio</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="./src/css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<i class="fa-solid fa-landmark"></i>
+
+				<nav>
+					<ul>
+						<li><a href="">Nosotros</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Empresas</a></li>
+					</ul>
+				</nav>
+
+				<section>
+					<a href="">Inicio Sesion</a>
+					<a href="">Registrate</a>
+				</section>
+			</header>
+			<main>
+				<section>
+					<p>
+						La mejor <strong>web de cambio monetario</strong> para calcular
+						<strong>Dolares</strong> a <strong>Pesos Argentinos (ARS)</strong> u otras
+						monedas, hasta 168 monedas distintas.
+					</p>
+				</section>
+
+				<section class="cambio">
+					<h1>Tipo de Cambio</h1>
+					<input type="number" id="monto" class="monto" />
+					<select name="" id="moneda-actual" class="moneda">
+						<option value="">Dolar</option> 
+					</select>
+
+					<input type="number" disabled class="monto" id="resultado" />
+					<select name="" id="moneda-proxima" class="moneda">
+						<!--  -->
+					</select>
+
+					<button>Cambio</button>
+				</section>
+			</main>
+		</div>
+	</body>
+
+	<script src="./src/api/index.js" type="module"></script>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "04-cash-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perezcatriel/change-flow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perezcatriel/change-flow/issues"
+  },
+  "homepage": "https://github.com/perezcatriel/change-flow#readme",
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}

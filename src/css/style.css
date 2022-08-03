@@ -1,0 +1,28 @@
+@import "styles/header.css";
+@import "styles/main.css";
+
+:root {
+	--font-principal: ubuntu;
+
+	--font-titulo: 55px;
+	--font-subtitulo: 34px;
+	--font-parrafo: 21px;
+	--font-small: 8px;
+
+	--gris-marengo: #666f88;
+}
+
+* {
+	font-family: var(--font-principal);
+}
+
+a {
+	text-decoration: none;
+}
+
+/* .cambio {
+	width: 400px;
+	margin-right: 50px;
+} */
+
+
